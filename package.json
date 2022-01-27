@@ -1,21 +1,26 @@
 {
-  "name": "asm-nomination-app",
+  "name": "fellow-engagement-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "ASM Fellow Engagement App",
   "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Haliq",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-async-errors": "^2.1.0",
+    "joi": "^17.4.2",
+    "joi-password-complexity": "^5.1.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.5",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.8",
     "morgan": "^1.10.0",
-    "validator": "^13.6.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "winston": "^2.4.5",
+    "winston-mongodb": "^3.0.0"
+  }
 }
